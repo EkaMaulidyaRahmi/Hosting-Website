@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 5px;
+    background-color: white;
+
+}
+
+.sidebar{
+    width : 10%;
+    background-color: lightgray;
+    float: right;
+}
+
+.navbar a{
+    display: block;
+    padding : 15px;
+    text-decoration: none;
+    color : black;
+}
+
+.navbar a:hover{
+    background-color: grey;
+}
+
+.konten{
+    width : 75%;
+    background-color: white;
+    float: left;
+    padding: 110px;
+}
+
+.konten h2{
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.konten p{
+    background-color: white;
+}
+
+header h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+}

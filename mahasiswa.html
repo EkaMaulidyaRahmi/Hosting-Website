@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="stylelampiran.css" type="text/css" charset="utf-8">
+    <title>mahasiswa</title>
+</head>
+
+<body>
+    <div class="container">
+        <header backround>
+            <h1>UTS</h1>
+        </header>
+        <div class="konten">
+            <h1>Form Mahasiswa</h1>
+            <form method="POST">
+                <table>
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td> : </td>
+                        <td><input type="text" name="nama" id="nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nobp">NOBP</label></td>
+                        <td> : </td>
+                        <td><input type="number" name="nobp" id="nobp"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tanggallahir">Tanggal Lahir</label></td>
+                        <td> : </td>
+                        <td><input type="date" name="tanggallahir" id="tanggallahir"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Jenis Kelamin</label></td>
+                        <td> : </td>
+                        <td>
+                            <input type="radio" value="L" name="gender" checked>Laki-Laki
+                            <input type="radio" value="P" name="gender">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="hobi">Hobi</label></td>
+                        <td> : </td>
+                        <td><input type="checkbox" name="hobi" id="Olahraga">
+                            <label for="olahraga">Olahraga</label>
+                            <input type="checkbox" name="hobi" id="Membaca">
+                            <label for="Membaca">Membaca</label>
+                            <input type="checkbox" name="hobi" id="Travelling">
+                            <label for="Travelling">Travelling</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat">Alamat</label></td>
+                        <td> : </td>
+                        <td><textarea name="alamat" id="alamat" cols="40" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <input type="submit">
+                            <input type="reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="navbar">
+            <nav>
+                <a href="Dashboard.html";>Dashboard</a>
+                <a href="profil.html";>Profil</a>
+                <a href="mahasiswa.html";>Mahasiswa</a>
+                <a href="hitung_diskon.html";>Hitung Diskon</a>
+                <a href="data_dosen.html";>Data Dosen</a>
+            </nav>
+        </div>
+        <footer>
+            Copyright by Eka Maulidya Rahmi
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="stylelampiran.css" type="text/css" charset="utf-8">
+    <title>hitung_diskon</title>
+</head>
+
+<body>
+    <div class="container">
+        <header backround>
+            <h1>UTS</h1>
+        </header>
+        <div class="konten">
+            <script language="JavaScript" type="text/javascript">
+                var harga = prompt("Masukkan harga mula-mula (Rp) : ");
+                var hargaDiskon;
+                if (harga >= 300000) {
+                    hargaDiskon = harga - 0.2 * harga;
+                    document.write("Anda mendapatkan diskon 10%")
+                }
+                else if (harga >= 100000) {
+                    document.write("Anda mendapatkan diskon 5%")
+                }
+                else {
+                    document.write("Anda tidak mendapatkan diskon")
+                }
+                document.write("<br> Terimakasi sudah berbelanja di toko kami")
+            </script>
+        </div>
+        <div class="navbar">
+            <nav>
+                <a href="Dashboard.html";>Dashboard</a>
+                <a href="profil.html";>Profil</a>
+                <a href="mahasiswa.html";>Mahasiswa</a>
+                <a href="hitung_diskon.html";>Hitung Diskon</a>
+                <a href="data_dosen.html";>Data Dosen</a>
+            </nav>
+        </div>
+        <footer>
+            Copyright by Eka Maulidya Rahmi
+        </footer>
+    </div>
+</body>
+
+</html>
